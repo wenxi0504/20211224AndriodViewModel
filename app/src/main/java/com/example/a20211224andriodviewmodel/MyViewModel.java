@@ -3,9 +3,10 @@ package com.example.a20211224andriodviewmodel;
 import android.app.Application;
 import android.content.Context;
 
+import androidx.lifecycle.AndroidViewModel;
 import androidx.lifecycle.ViewModel;
 
-public class MyViewModel extends ViewModel {
+public class MyViewModel extends AndroidViewModel {
     //1.0 in order to access global resource files
     //Application application;
 
@@ -19,5 +20,6 @@ public class MyViewModel extends ViewModel {
     }
      */
 
+    
 
 }
