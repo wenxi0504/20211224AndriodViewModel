@@ -3,4 +3,6 @@
     <string name="button_plus">+</string>
     <string name="button_minus">-</string>
     <string name="textView">0</string>
+    <string name="data_key">DATA_KEY</string>
+    <string name="shp_name">SHP_NAME</string>
 </resources>
