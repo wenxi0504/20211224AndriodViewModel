@@ -66,10 +66,13 @@ public class MyViewModel extends AndroidViewModel {
 
     public void add(int x) {
         handle.set(key, getNumber().getValue() + x);
+        //Method1:Savest way to save data, but sometimes too much if the data is changing frequently
+        //save();
     }
 
     public void minus(int x){
         handle.set(key,getNumber().getValue()-x);
+       // save();
     }
 
 }
